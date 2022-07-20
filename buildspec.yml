@@ -13,7 +13,7 @@ phases:
   post_build:
     commands:
       - echo build completed
-      - npm build
+      - npm run build src/index.js
 artifacts:
   files:
     - appspec.yml
